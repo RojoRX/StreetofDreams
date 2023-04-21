@@ -1,0 +1,6 @@
+<p class="text-center text-uppercase text-shadow text-light" 
+*ngIf="!showAnniversaryMessage">
+Quedan {{ days }} días {{ hours }} horas {{ minutes }} 
+minutos y {{ seconds }} segundos hasta el próximo aniversario.</p>
+<p class="text-center text-uppercase text-shadow" 
+*ngIf="showAnniversaryMessage">¡Feliz Aniversario!</p>

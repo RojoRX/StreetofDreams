@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { BackgroundComponent } from './components/background/background.component';
 import { LayoutComponent } from './components/layout/layout.component';
 import { StarsComponent } from './components/stars/stars.component';
+import { CountdownComponent } from './components/countdown/countdown.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     BackgroundComponent,
     LayoutComponent,
-    StarsComponent
+    StarsComponent,
+    CountdownComponent
   ],
   imports: [
     BrowserModule,
