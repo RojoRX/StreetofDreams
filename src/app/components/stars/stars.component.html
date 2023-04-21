@@ -1,0 +1,7 @@
+<div class="stars">
+    <div *ngFor="let star of stars" class="star" [style.top.px]="star.y" [style.left.px]="star.x"
+      [style.width.px]="star.size" [style.height.px]="star.size" [style.opacity]="star.opacity"
+      [style.filter]="'blur(' + star.blur + 'px)'">
+    </div>
+  </div>
+  
